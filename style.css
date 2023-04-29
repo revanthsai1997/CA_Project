@@ -1,0 +1,85 @@
+@font-face {
+    font-family: aboveFont;
+    src: url("assets/above-font/AboveDemoRegular-lJMd.ttf");
+}
+@font-face {
+    font-family: tarrgetFont;
+    src: url("assets/tarrget-font/Tarrget3DItalic-LdKg.otf");
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+.abstractText{   
+    font-family: aboveFont;
+}
+#techHeading{
+    font-family: tarrgetFont;
+}
+
+.techBox{
+    padding-top: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.background{
+    background-image: url("assets/hero-img.jpg");
+    background-position: center center;
+    background-size: contain;
+    background-size: 100%;
+    
+}
+.abstractCls{
+    color: white;
+}
+.abstractText{
+    color: white;
+}
+.team-info{
+    background: lightgrey;
+    padding-bottom: 45px
+}
+.img_middle img {
+    min-width: 450px;
+    width: 100%;
+    max-width: 500px
+}
+.img_middle {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0
+}
+.individual_sec .text_sec{
+    padding: 25px 45px 25px 45px
+}
+.img_area.mt-2 {
+    padding: 25px 0 0
+}
+.individual_sec .img_area {
+    text-align: center
+}
+.title{
+    font-size: larger;
+    font-weight: bold;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 33.33%;
+  margin: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.footer-area {
+    margin: 30px 0 0
+}
+@media only screen and (max-width:767px){
+    .individual_sec {flex-direction: column}
+    .img_middle img {width: 100%;min-width: 100px}
+    .individual_sec .text_sec {padding:25px 10px}
+}
